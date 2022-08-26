@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/d/code/tinyWeb'
+make: Leaving directory '/d/code/tinyWeb'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

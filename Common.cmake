@@ -1,0 +1,11 @@
+include_directories(${ROOT_DIR}/include)
+include_directories(${ROOT_DIR}/include/http)
+include_directories(${ROOT_DIR}/include/threadpool)
+include_directories(${ROOT_DIR}/include/log)
+include_directories(${ROOT_DIR}/include/utils)
+include_directories(${ROOT_DIR}/include/timer)
+include_directories(${ROOT_DIR}/include/filesender)
+include_directories(${ROOT_DIR}/include/server)
+include_directories(${ROOT_DIR}/include/objpool)
+
+link_directories(${ROOT_DIR}/lib/gtest ${PROJECT_BINARY_DIR}/lib)

@@ -1,0 +1,1 @@
+/usr/bin/g++-9  -g  -rdynamic CMakeFiles/sockettest.dir/SocketTest.cpp.o  -o ../../sockettest   -L/home/wjun/code/tinyWeb/lib/gtest  -L/home/wjun/code/tinyWeb/build/lib  -Wl,-rpath,/home/wjun/code/tinyWeb/lib/gtest:/home/wjun/code/tinyWeb/build/lib -lgtest -lgtest_main -lgmock -lgmock_main -lpthread ../../lib/libhttp.a ../../lib/libutils.a ../../lib/liblog.a 

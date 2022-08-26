@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libtimer.a  CMakeFiles/timer.dir/Timed.cpp.o CMakeFiles/timer.dir/TimedEvent.cpp.o
+/usr/bin/ranlib ../../lib/libtimer.a

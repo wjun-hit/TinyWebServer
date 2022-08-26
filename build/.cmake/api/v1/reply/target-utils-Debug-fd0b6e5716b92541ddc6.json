@@ -1,0 +1,214 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libutils.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"ADD_DEFINITIONS",
+			"include_directories",
+			"include"
+		],
+		"files" : 
+		[
+			"src/utils/CMakeLists.txt",
+			"CMakeLists.txt",
+			"Common.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 3,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 5,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 6,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 7,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "_ROOT_DIR=\"/home/wjun/code/tinyWeb\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "_START_LOG=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/wjun/code/tinyWeb/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/wjun/code/tinyWeb/include/http"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/wjun/code/tinyWeb/include/threadpool"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/wjun/code/tinyWeb/include/log"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/wjun/code/tinyWeb/include/utils"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/wjun/code/tinyWeb/include/timer"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/wjun/code/tinyWeb/include/filesender"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/wjun/code/tinyWeb/include/server"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/wjun/code/tinyWeb/include/objpool"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "utils::@f1b38b22aeb65474a6c5",
+	"name" : "utils",
+	"nameOnDisk" : "libutils.a",
+	"paths" : 
+	{
+		"build" : "src/utils",
+		"source" : "src/utils"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utils/ExactTime.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,17 @@
+{
+    "server" : {
+        "threadNum" : 8,
+        "maxClientNum" : 10000,
+        "port" : 6666,
+        "timeSlot" : 5,
+        "listenTrigmode" : "ET",
+        "clientTrigmode" : "ET"
+    },
+    "log" : {
+        "logDir" : "log",
+        "isOpenLog" : "true",
+        "splitLine" : 1000000,
+        "queueNum" : 8,
+        "maxQueueSize" : 1000000
+    } 
+}

@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/http",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/http",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/utils",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/utils",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/log",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/log",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/server",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/server",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/threadpool",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/threadpool",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/timer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/timer",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TinyWeb"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "Main",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "http::@8197c89eb9db1dcb42c8",
+					"jsonFile" : "target-http-Debug-3e2ddc2dffc896ab43e6.json",
+					"name" : "http",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "log::@c50f4de1a1e2d0ee20d5",
+					"jsonFile" : "target-log-Debug-88095b7f5a11c1db2580.json",
+					"name" : "log",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "main::@145eef247bfb46b6828c",
+					"jsonFile" : "target-main-Debug-1a3454ffa5c89a3f559d.json",
+					"name" : "main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "server::@2804e40980a64c7d7ad1",
+					"jsonFile" : "target-server-Debug-76de6ac4615202aa2c7b.json",
+					"name" : "server",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "threadpool::@b4cc31f19da39e2e08cb",
+					"jsonFile" : "target-threadpool-Debug-ef661aabb72d8ea9da87.json",
+					"name" : "threadpool",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "timer::@c575a30741e610c5d97f",
+					"jsonFile" : "target-timer-Debug-71fb1128692f80a1e67c.json",
+					"name" : "timer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "utils::@f1b38b22aeb65474a6c5",
+					"jsonFile" : "target-utils-Debug-fd0b6e5716b92541ddc6.json",
+					"name" : "utils",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wjun/code/tinyWeb/build",
+		"source" : "/home/wjun/code/tinyWeb"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

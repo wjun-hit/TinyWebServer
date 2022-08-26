@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/utils/ExactTime.hpp
+ctime
+-
+chrono
+-
+string
+-
+
+/home/wjun/code/tinyWeb/src/utils/ExactTime.cpp
+ExactTime.hpp
+/home/wjun/code/tinyWeb/src/utils/ExactTime.hpp
+

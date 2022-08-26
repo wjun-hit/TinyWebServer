@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/timer/TimedEvent.hpp
+iostream
+-
+functional
+-
+thread
+-
+ctime
+-
+ExactTime.hpp
+../include/timer/ExactTime.hpp
+
+../include/utils/ExactTime.hpp
+ctime
+-
+chrono
+-
+string
+-
+
+/home/wjun/code/tinyWeb/src/timer/TimedEvent.cpp
+TimedEvent.hpp
+/home/wjun/code/tinyWeb/src/timer/TimedEvent.hpp
+

@@ -1,0 +1,102 @@
+[
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/main.dir/main.cpp.o -c /home/wjun/code/tinyWeb/src/main.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/main.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/http",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/http.dir/HttpParse.cpp.o -c /home/wjun/code/tinyWeb/src/http/HttpParse.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/http/HttpParse.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/http",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/http.dir/HttpProcess.cpp.o -c /home/wjun/code/tinyWeb/src/http/HttpProcess.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/http/HttpProcess.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/http",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/http.dir/HttpProduce.cpp.o -c /home/wjun/code/tinyWeb/src/http/HttpProduce.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/http/HttpProduce.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/http",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/http.dir/HttpReader.cpp.o -c /home/wjun/code/tinyWeb/src/http/HttpReader.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/http/HttpReader.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/http",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/http.dir/HttpRequest.cpp.o -c /home/wjun/code/tinyWeb/src/http/HttpRequest.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/http/HttpRequest.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/http",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/http.dir/HttpResponse.cpp.o -c /home/wjun/code/tinyWeb/src/http/HttpResponse.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/http/HttpResponse.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/http",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/http.dir/HttpWriter.cpp.o -c /home/wjun/code/tinyWeb/src/http/HttpWriter.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/http/HttpWriter.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/utils",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/utils.dir/ExactTime.cpp.o -c /home/wjun/code/tinyWeb/src/utils/ExactTime.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/utils/ExactTime.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/log",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/log.dir/Log.cpp.o -c /home/wjun/code/tinyWeb/src/log/Log.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/log/Log.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/server",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/server.dir/Epoll.cpp.o -c /home/wjun/code/tinyWeb/src/server/Epoll.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/server/Epoll.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/server",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/server.dir/HttpClient.cpp.o -c /home/wjun/code/tinyWeb/src/server/HttpClient.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/server/HttpClient.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/server",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/server.dir/InactiveConn.cpp.o -c /home/wjun/code/tinyWeb/src/server/InactiveConn.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/server/InactiveConn.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/server",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/server.dir/Server.cpp.o -c /home/wjun/code/tinyWeb/src/server/Server.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/server/Server.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/server",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/server.dir/SocketServer.cpp.o -c /home/wjun/code/tinyWeb/src/server/SocketServer.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/server/SocketServer.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/threadpool",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/threadpool.dir/ThreadCommutication.cpp.o -c /home/wjun/code/tinyWeb/src/threadpool/ThreadCommutication.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/threadpool/ThreadCommutication.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/threadpool",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/threadpool.dir/ThreadMsg.cpp.o -c /home/wjun/code/tinyWeb/src/threadpool/ThreadMsg.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/threadpool/ThreadMsg.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/threadpool",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/threadpool.dir/ThreadPool.cpp.o -c /home/wjun/code/tinyWeb/src/threadpool/ThreadPool.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/threadpool/ThreadPool.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/timer",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/timer.dir/Timed.cpp.o -c /home/wjun/code/tinyWeb/src/timer/Timed.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/timer/Timed.cpp"
+},
+{
+  "directory": "/home/wjun/code/tinyWeb/build/src/timer",
+  "command": "/usr/bin/g++-9  -D_ROOT_DIR=\\\"/home/wjun/code/tinyWeb\\\" -D_START_LOG=1 -I/home/wjun/code/tinyWeb/include -I/home/wjun/code/tinyWeb/include/http -I/home/wjun/code/tinyWeb/include/threadpool -I/home/wjun/code/tinyWeb/include/log -I/home/wjun/code/tinyWeb/include/utils -I/home/wjun/code/tinyWeb/include/timer -I/home/wjun/code/tinyWeb/include/filesender -I/home/wjun/code/tinyWeb/include/server -I/home/wjun/code/tinyWeb/include/objpool  -g   -std=gnu++17 -o CMakeFiles/timer.dir/TimedEvent.cpp.o -c /home/wjun/code/tinyWeb/src/timer/TimedEvent.cpp",
+  "file": "/home/wjun/code/tinyWeb/src/timer/TimedEvent.cpp"
+}
+]

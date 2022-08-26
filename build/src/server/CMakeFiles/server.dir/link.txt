@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libserver.a  CMakeFiles/server.dir/Epoll.cpp.o CMakeFiles/server.dir/HttpClient.cpp.o CMakeFiles/server.dir/InactiveConn.cpp.o CMakeFiles/server.dir/Server.cpp.o CMakeFiles/server.dir/SocketServer.cpp.o
+/usr/bin/ranlib ../../lib/libserver.a
