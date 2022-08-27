@@ -30,6 +30,5 @@ void InactiveConn::dealInactiveConn()
         delFunc(fd);
     }
     lastActive.clear();
-    lastActive = activeFd;
-    activeFd.clear();
+    swap(lastActive, activeFd);
 }
