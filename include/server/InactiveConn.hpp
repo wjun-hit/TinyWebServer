@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <unordered_set>
+#include <algorithm>
 #include <mutex>
 #include <memory>
 #include <functional>
